@@ -1,0 +1,55 @@
+.footer{
+    height: 100px;
+    margin-top: 20px;
+    .copyright{
+        position: absolute;
+        left: -50px;
+        bottom: 0px;
+        p{
+            color: $color-1;
+            transform: rotate(-90deg);
+            font-size: 14px;
+            @media (max-width: 576px) { 
+                font-size: 12px;
+    
+             }     
+        }   
+    }
+    .social-icons{
+        margin-left: 0px;
+        margin-top: 20px;
+        a{
+        color: $color-1;
+        margin-right: 20px;
+        padding: 8px 10px;
+        border:2px solid $color-1;
+        transition:all 2s;
+        @include border-radius(50%);
+            &.facebook:hover{
+                color: #3b5998;
+                background: white;
+            }
+            &.twitter:hover{
+                color: #1da1f2;
+                background: white;
+            }
+            &.instagram:hover{
+                color: #c13584;
+                background: white;
+            }
+            &.github:hover{
+                color: black;
+                background: white;
+            }          
+       
+        @media (max-width: 576px) { 
+            font-size: 12px;
+            padding: 3px 5px;
+            margin-right: 5px;
+         }
+        }
+
+
+          
+    }
+}

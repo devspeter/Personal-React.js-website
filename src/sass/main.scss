@@ -1,0 +1,21 @@
+
+
+
+//
+// Main SCSS - Import all styles for this theme
+// 
+@import "core/variables";
+@import "core/base";
+@import "core/mixin";
+
+//
+// Standard alone conponenets 
+//
+@import "components/header";
+@import "components/footer";
+@import "components/home";
+
+
+
+
+
